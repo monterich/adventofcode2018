@@ -16,10 +16,12 @@ def second_star(n, start):
             counter += 1
             if counter == len(n):
                 second_star(n, start)
+                
+if __name__ == "__main__":
+    
+    n = list(map(int,input().split()))
+    start = 0
+    result = []
 
-n = list(map(int,input().split()))
-start = 0
-result = []
-
-first_star(n,start)
-second_star(n, start)
+    first_star(n,start)
+    second_star(n, start)
