@@ -31,7 +31,7 @@ def star2(n):
             if hamdist(element, x) == 1:
                 ID1 = element
                 ID2 = x
-    results =""
+    results ="Result star two day 2: "
     for i in range(len(ID1)):
         if ID1[i] == ID2[i]:
             results += str(ID1[i])
